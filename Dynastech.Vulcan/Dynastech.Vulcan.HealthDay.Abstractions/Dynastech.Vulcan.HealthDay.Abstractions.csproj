@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>Dynastech.Vulcan</RootNamespace>
+    <RootNamespace>Dynastech.Vulcan.HealthDay</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dynastech.Patterns.Abstractions\Dynastech.Patterns.Abstractions.csproj" />
+    <ProjectReference Include="..\Dynastech.Vulcan.Abstractions\Dynastech.Vulcan.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

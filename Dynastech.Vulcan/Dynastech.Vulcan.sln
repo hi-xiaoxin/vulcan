@@ -13,6 +13,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynastech.Patterns.Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynastech.Patterns.EntityFrameworkCore", "Dynastech.Patterns.EntityFrameworkCore\Dynastech.Patterns.EntityFrameworkCore.csproj", "{5EBA165C-E505-43BF-B8DA-B75E5DB918AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity", "identity", "{85EFAC14-CCEE-43C5-8EFB-D2D4B68A0734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynastech.Vulcan.EntityFrameworkCore", "Dynastech.Vulcan.EntityFrameworkCore\Dynastech.Vulcan.EntityFrameworkCore.csproj", "{980D6E5A-C465-4220-AC08-A2576DD57D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynastech.Vulcan.HealthDay.Abstractions", "Dynastech.Vulcan.HealthDay.Abstractions\Dynastech.Vulcan.HealthDay.Abstractions.csproj", "{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "health", "health", "{6AE3C72A-09E6-4867-9BB8-F56E544840D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{1F85CC36-0ECA-4F43-9481-279C18374B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{E084C39C-1F3F-4331-B8DC-925BBCE69218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,13 +47,26 @@ Global
 		{5EBA165C-E505-43BF-B8DA-B75E5DB918AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EBA165C-E505-43BF-B8DA-B75E5DB918AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EBA165C-E505-43BF-B8DA-B75E5DB918AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980D6E5A-C465-4220-AC08-A2576DD57D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980D6E5A-C465-4220-AC08-A2576DD57D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980D6E5A-C465-4220-AC08-A2576DD57D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980D6E5A-C465-4220-AC08-A2576DD57D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{56021E69-D1DA-4C45-8B2C-10009097BD28} = {6AE3C72A-09E6-4867-9BB8-F56E544840D1}
+		{118BE1D8-AF83-4FAA-A68E-1B394472DA6A} = {1F85CC36-0ECA-4F43-9481-279C18374B79}
 		{94A08141-587F-4A08-AD1C-DAFE2A9CB7A6} = {118BE1D8-AF83-4FAA-A68E-1B394472DA6A}
 		{5EBA165C-E505-43BF-B8DA-B75E5DB918AB} = {118BE1D8-AF83-4FAA-A68E-1B394472DA6A}
+		{85EFAC14-CCEE-43C5-8EFB-D2D4B68A0734} = {1F85CC36-0ECA-4F43-9481-279C18374B79}
+		{FBDE1401-0847-4DB6-AF44-9A7270CFB0DC} = {6AE3C72A-09E6-4867-9BB8-F56E544840D1}
+		{6AE3C72A-09E6-4867-9BB8-F56E544840D1} = {E084C39C-1F3F-4331-B8DC-925BBCE69218}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14454E33-34BE-480A-81EF-EC65209879DA}
