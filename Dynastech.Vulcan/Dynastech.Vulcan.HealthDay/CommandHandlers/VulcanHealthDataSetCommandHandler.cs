@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace Dynastech.Vulcan.HealthDay
 {
-    public class HealthDataSetCommandHandler : CommandHandler<HealthDataSetCommand>
+    public class VulcanHealthDataSetCommandHandler : CommandHandler<VulcanHealthDataSetCommand>
     {
-        public HealthDataSetCommandHandler(
+        public VulcanHealthDataSetCommandHandler(
             IEventLogBuilder logBuilder, 
             IEventLogStore eventLogStore, 
             IEventPublisher eventPublisher, 
-            ILogger<HealthDataSetCommandHandler> logger) 
+            ILogger<VulcanHealthDataSetCommandHandler> logger) 
             : base(logBuilder, eventLogStore, eventPublisher, logger)
         {
         }
 
-        protected override Task<CommandExectionResult> ExecuteAsync(CommandExectionContext<HealthDataSetCommand> context, CancellationToken cancellationToken = default)
+        protected override Task<CommandExectionResult> ExecuteAsync(CommandExectionContext<VulcanHealthDataSetCommand> context, CancellationToken cancellationToken = default)
         {
             throw new NotImplementedException();
         }

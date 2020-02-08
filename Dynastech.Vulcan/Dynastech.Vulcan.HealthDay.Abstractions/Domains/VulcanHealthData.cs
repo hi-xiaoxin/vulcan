@@ -3,7 +3,7 @@ using System;
 
 namespace Dynastech.Vulcan.HealthDay
 {
-    public class HealthData : VulcanData
+    public class VulcanHealthData : VulcanData
     {
 
     }

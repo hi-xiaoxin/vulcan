@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dynastech.Patterns.EntityFrameworkCore\Dynastech.Patterns.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Dynastech.Vulcan.HealthDay.Abstractions\Dynastech.Vulcan.HealthDay.Abstractions.csproj" />
   </ItemGroup>
 

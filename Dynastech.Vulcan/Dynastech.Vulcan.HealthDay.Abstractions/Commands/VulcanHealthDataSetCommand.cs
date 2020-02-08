@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Dynastech.Vulcan.HealthDay
 {
-    public class HealthDataSetCommand : VulcanDataSetCommand
+    public class VulcanHealthDataSetCommand : VulcanDataSetCommand
     {
 
     }

@@ -6,11 +6,11 @@ namespace Dynastech.Vulcan.EntityFrameworkCore
 {
     public class VulcanDbContext : DbContext
     {
-        public DbSet<HealthData> HealthDatas { get; private set; }
+        public DbSet<VulcanHealthData> HealthDatas { get; private set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<HealthData>(entity =>
+            modelBuilder.Entity<VulcanHealthData>(entity =>
             {
                 entity.HasKey(x => x.Id);
             });
