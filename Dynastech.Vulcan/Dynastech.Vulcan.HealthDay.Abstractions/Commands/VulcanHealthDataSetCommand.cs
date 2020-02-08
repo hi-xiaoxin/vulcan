@@ -10,6 +10,6 @@ namespace Dynastech.Vulcan.HealthDay
 {
     public class VulcanHealthDataSetCommand : VulcanDataSetCommand
     {
-
+        public Guid DataId { get; set; }
     }
 }

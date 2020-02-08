@@ -23,7 +23,7 @@ namespace Dynastech.Vulcan.EntityFrameworkCore
 
         public async Task<VulcanHealthData> GetDataByOwnerIdAsync(Guid ownerId)
         {
-            return await this.DbContext.HealthDatas.FirstOrDefaultAsync(x => x.CreatorId == ownerId);
+            return await this.DbContext.HealthDatas.FirstOrDefaultAsync(x => x.OwnerId == ownerId);
         }
 
         public async Task UpdateDataAsync(VulcanHealthData data)

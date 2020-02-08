@@ -7,9 +7,15 @@ namespace Dynastech.Vulcan
     {
         public Guid Id { get; set; }
 
-        public Guid CreatorId { get; set; }
-        public string CreatorName { get; set; }
-        public string CreatorAccountName { get; set; }
+        /// <summary>
+        /// 一级组织ID
+        /// </summary>
+        public Guid TenantId { get; set; }
+
+        public Guid OwnerId { get; set; }
+        public string OwnerName { get; set; }
+        public string OwnerAccountName { get; set; }
+        public string OwnerPhone { get; set; }
 
         public DateTime WhenCreated { get; set; }
         public DateTime WhenModified { get; set; }
